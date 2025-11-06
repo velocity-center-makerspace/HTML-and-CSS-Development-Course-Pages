@@ -1,0 +1,87 @@
+body {
+    font-family: sentinel, 'Georgia Pro', sans-serif;
+    font-style: normal;
+    min-height: 100vh; /* 100% of viewport height */
+    position: relative;
+    padding-bottom: 100;
+}
+
+nav {
+    width: 100%;
+    background-color: #08542E; /* CSM Green */
+}
+
+ul {
+    padding: 15px;
+}
+
+.nav-list {
+    display: inline-block;
+}
+
+a {
+    font-family: Poppins, sans-serif;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-style: bold;
+    color: #03331A; /* Dark Green */
+}
+
+.course-objectives {
+    font-family: Poppins, sans-serif;
+}
+
+#enter-text, #enter-password, #dropdown-answers {
+    outline: none;
+    border: 1px solid #3D8059; /* Light Green */
+}
+
+#enter-text:focus, #enter-password:focus, #dropdown-answers:focus {
+    border-color: #FCBF00; /* CSM Gold */
+}
+
+#enter-text:active, #enter-password:active, #dropdown-answers:active {
+    border-color: #FCBF00; /* CSM Gold */
+}
+
+button, input[name="submit"] {
+    display: block;
+    color: white;
+    background-color: #03331A; /* Dark Green */
+    outline: none;
+    border: 1px solid #03331A; /* Dark Green */
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+button:hover, input[name="submit"]:hover{
+    color: black;
+    background-color: #FCBF00; /* CSM Gold */
+    border-color: #FCBF00; /* CSM Gold */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+
+img {
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#copyright {
+    display: inline-block;
+    padding: 10px;
+    transform: translateY(-25%);
+}
+

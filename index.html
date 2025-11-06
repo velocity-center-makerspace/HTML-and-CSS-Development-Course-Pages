@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--TODO: add comments about obscure items -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Development</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.typekit.net/wki8jyd.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to HTML & CSS Development!</h1>
+        <nav>
+            <ul>
+                <li class="nav-list">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-list">
+                    <a href="page.html">Page</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h2>What to expect:</h2>
+        <ol>
+            <li class="course-objectives">Learn what HTML & CSS are, core concepts, and their purpose.</li>
+            <li class="course-objectives">Identify the HTML elements on this page.</li>
+            <li class="course-objectives">Identify the corresponding CSS styles.</li>
+            <li class="course-objectives">Create your own page link from this one.</li>
+        </ol>
+    </article>
+    <article>
+        <h2>Interesting HTML Elements</h2>
+        <form>
+            <div class="text-example">
+                <label for="enter-text">Enter Text:</label>
+                <input type="text" name="enter-text" id="enter-text" size="15" maxlength="15" />
+            </div>
+            <div class="password-example">
+                <label for="enter-password">Enter Password:</label>
+                <input type="password" name="enter-password" id="enter-password" size="15" maxlength="15"/>
+            </div>
+            <div class="radio-button-example">
+                <label for="radio-buttons">Is this class your favorite?</label>
+                <input type="radio" name="radio-buttons" class="radio-class" value="yes" checked />Yes
+                <input type="radio" name="radio-buttons" class="radio-class" value="no" />No
+            </div>
+            <p class="multi-select-example">Select which languages you are already familiar with:
+                <br />
+                <input type="checkbox" name="multi-select" value="HTML"/>HTML
+                <input type="checkbox" name="multi-select" value="CSS"/>CSS
+                <input type="checkbox" name="multi-select" value="JavaScript"/>JavaScript
+                <input type="checkbox" name="multi-select" value="Other"/>Other
+                <input type="checkbox" name="multi-select" value="None"/>None
+            </p>
+            <p class="dropdown-example">Would you consider earning a certificate in HTML & CSS?
+                <br />
+                <select id="dropdown-answers" name="dropdown-answers">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                    <option value="maybe">Maybe</option>
+                </select>
+            </p>
+            <button id="regular-button">This is a regular button!</button>
+            <input type="submit" name="submit" value="This is a submit button!" />
+        </form>
+    </article>
+</body>
+<footer>
+    <img src="assets/makerspace-logo.png" width="75" />
+    <p id="copyright">&copy; College of Southern Maryland Velocity Center Makerspace</p>
+</footer>
+</html>
